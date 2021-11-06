@@ -1,0 +1,31 @@
+a {
+    color: black;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+  }
+  
+  #navbar {
+    position: fixed;
+    background-color: lightgray;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .flex-item {
+    padding: 30px 20px;
+  }
+  
+  #headline {
+    padding: 100px 0 0 0;
+  }
+  
+  @media (max-width: 100px) { 
+    #headline {
+    padding: 100px 0 0 0;
+    }
+  }
